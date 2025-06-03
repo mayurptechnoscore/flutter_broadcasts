@@ -1,10 +1,10 @@
 import Flutter
 import UIKit
 
-public class FlutterBroadcasts4mPlugin: NSObject, FlutterPlugin {
+public class SwiftFlutterBroadcasts4mPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
     let channel = FlutterMethodChannel(name: "flutter_broadcasts_4m", binaryMessenger: registrar.messenger())
-    let instance = FlutterBroadcasts4mPlugin()
+    let instance = SwiftFlutterBroadcasts4mPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
 

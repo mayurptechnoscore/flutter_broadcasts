@@ -1,6 +1,6 @@
 #import "FlutterBroadcasts4mPlugin.h"
-#if __has_include(<flutter_broadcasts_4m/flutter_broadcasts_4m-Swift.h>)
-#import <flutter_broadcasts_4m/flutter_broadcasts_4m-Swift.h>
+#if __has_include(<flutter_broadcasts/flutter_broadcasts_4m-Swift.h>)
+#import <flutter_broadcasts/flutter_broadcasts_4m-Swift.h>
 #else
 // Support project import fallback if the generated compatibility header
 // is not copied when this plugin is created as a library.
@@ -8,8 +8,8 @@
 #import "flutter_broadcasts_4m-Swift.h"
 #endif
 
-@implementation FlutterBroadcastsPlugin
+@implementation FlutterBroadcasts4mPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-  [SwiftFlutterBroadcastsPlugin registerWithRegistrar:registrar];
+  [SwiftFlutterBroadcasts4mPlugin registerWithRegistrar:registrar];
 }
 @end
