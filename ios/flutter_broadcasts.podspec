@@ -3,7 +3,7 @@
 # Run `pod lib lint flutter_broadcasts.podspec' to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'flutter_broadcasts'
+  s.name             = 'flutter_broadcasts_4m'
   s.version          = '0.0.1'
   s.summary          = 'A plugin for sending and receiving broadcasts with Android intents and iOS notifications.'
   s.description      = <<-DESC
