@@ -3,7 +3,7 @@ import UIKit
 
 public class SwiftFlutterBroadcastsPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "flutter_broadcasts", binaryMessenger: registrar.messenger())
+    let channel = FlutterMethodChannel(name: "flutter_broadcasts_4m", binaryMessenger: registrar.messenger())
     let instance = SwiftFlutterBroadcastsPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
