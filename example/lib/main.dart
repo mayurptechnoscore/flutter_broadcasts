@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_broadcasts/flutter_broadcasts.dart';
+import 'package:flutter_broadcasts_4m/flutter_broadcasts.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
